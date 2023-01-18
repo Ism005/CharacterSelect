@@ -17,7 +17,7 @@ mongoose.connect(uri);
 
 async function connectDb() {
     await mongoose.connect(uri);
-    console.log('Db connecté');
+    console.log('Db connecté !');
     checkMongooseConnection(mongoose);
 }
 
