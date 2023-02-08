@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 const Layout = ({children}) => {
     return (
         <div className="head">
-            <nav className="crumbs">s
+            <nav className="crumbs">
                 <div className="container">
                     <Link className="nav-item" to="/">Home</Link>
                     <Link className="nav-item" to="/character">Personnages</Link>
